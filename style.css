@@ -8,7 +8,7 @@
 body {
     font: 1em/1.4 "Poppins", sans-serif;
 }
-  
+ 
 h2 {
 	margin-top: 0;
 	margin-bottom: 0.5rem;
@@ -229,9 +229,13 @@ h2 {
 	border-top-left-radius: 0;
 	border-bottom-left-radius: 0;
 }
-body{
-    background: linear-gradient(90deg, #efd5ff 0%, #515ada 100%) !important;
-}
+body {
+    background: linear-gradient( to bottom, #EDF1F2, #D5E2F2);
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    display: flex;
+  }
 .bg-light {
     background: linear-gradient(90deg, #efd5ff 0%, #515ada 100%) !important;
 }
