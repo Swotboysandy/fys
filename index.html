@@ -1,0 +1,136 @@
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+
+<div class="demo-block bg-light pt-3 pb-3 overflow-hidden">
+	<div class="container mb-3 text-center" id="buttonDemoSelection">
+		<!-- <div class="btn-group" role="group" aria-label="">
+			<button type="button" class="btn btn-primary" data-dest="html">HTML</button>
+			<button type="button" class="btn btn-secondary" data-dest="canvas">CANVAS</button>
+		</div> -->
+	</div>
+
+	<div class="container">
+		<div id="htmlBook">
+			<div class="flip-book html-book stf__wrapper --landscape" id="htmlBookExample" style="min-width: 350px; min-height: 467px; width: 100%; max-width: 1400px; display: block; padding-bottom: 66.6364%;">
+				<div class="stf__block">
+					<!-- Page 1 -->
+					<div class="page stf__item" style="display: none; z-index: 1;">
+						<div class="page-content">
+							<h2 class="page-header">Looney Tunes</h2>
+							<div class="page-image" style="background-image: url(images/looney-tunes.png)"></div>
+							<div class="page-text">Looney Tunes is a critically acclaimed cartoon series that has been running for ninety years! Featuring Bugs Bunny, Daffy Duck, Tweety, Sylvester, and more, this show brought delightful chaos to kids and adults around the world.</div>
+							<div class="page-footer">1</div>
+						</div>
+					</div>
+
+					<!-- Page 2 -->
+					<div class="page stf__item" style="display: none; z-index: 1;">
+						<div class="page-content">
+							<h2 class="page-header">Ben 10</h2>
+							<div class="page-image" style="background-image: url(images/Alien_X-Tinction.png)"></div>
+							<div class="page-text">Ben 10 follows a young boy who discovers a mysterious device called the Omnitrix, allowing him to transform into various alien creatures. A wild ride of action, adventure, and serious alien butt-kicking!</div>
+							<div class="page-footer">2</div>
+						</div>
+					</div>
+
+					<!-- Page 3 -->
+					<div class="page stf__item --left --simple" style="display: none;">
+						<div class="page-content">
+							<h2 class="page-header">Courage the Cowardly Dog</h2>
+							<div class="page-image" style="background-image: url(images/courage.png)"></div>
+							<div class="page-text">Courage is a pink, anxious dog saving his owners from all kinds of creepy supernatural creatures. And trust me, those were nightmare fuel even for adults.</div>
+							<div class="page-footer">3</div>
+						</div>
+					</div>
+
+					<!-- Page 4 -->
+					<div class="page stf__item --right --simple" style="display: none;">
+						<div class="page-content">
+							<h2 class="page-header">Scooby-Doo</h2>
+							<div class="page-image" style="background-image: url(images/scoob.png)"></div>
+							<div class="page-text">Scooby-Doo and the gang have been solving spooky mysteries since 1969! Ghosts? Monsters? Nah — just Old Man Jenkins in a mask, every time.</div>
+							<div class="page-footer">4</div>
+						</div>
+					</div>
+
+					<!-- Page 5 -->
+					<div class="page stf__item" style="display: none;">
+						<div class="page-content">
+							<h2 class="page-header">The Flintstones</h2>
+							<div class="page-image" style="background-image: url(images/bye-bye.png)"></div>
+							<div class="page-text">Yabba Dabba Doo! Meet Fred, Wilma, Barney, and Betty in the prehistoric suburban life of Bedrock — where dinosaurs were basically lawnmowers.</div>
+							<div class="page-footer">5</div>
+						</div>
+					</div>
+
+					<!-- Page 6 -->
+					<div class="page stf__item" style="display: none;">
+						<div class="page-content">
+							<h2 class="page-header">Tom and Jerry</h2>
+							<div class="page-image" style="background-image: url(images/tom.png)"></div>
+							<div class="page-text">An endless battle of wits between a cat and a mouse — with furniture destroyed, physics ignored, and Tom somehow always ending up in worse shape.</div>
+							<div class="page-footer">6</div>
+						</div>
+					</div>
+
+					<!-- Page 7 -->
+					<div class="page stf__item" style="display: none;">
+						<div class="page-content">
+							<h2 class="page-header">Popeye the Sailor</h2>
+							<div class="page-image" style="background-image: url(images/pop.png)"></div>
+							<div class="page-text">Popeye proved spinach makes you strong enough to uppercut a battleship. If only real spinach tasted like pizza, we'd all be superheroes by now.</div>
+							<div class="page-footer">7</div>
+						</div>
+					</div>
+
+					<!-- Page 8 -->
+					<div class="page stf__item" style="display: none;">
+						<div class="page-content">
+							<h2 class="page-header">Dexter's Laboratory</h2>
+							<div class="page-image" style="background-image: url(images/lab.png)"></div>
+							<div class="page-text">Dexter, a boy genius with a secret lab, constantly outsmarted his sister Dee Dee — or at least tried to. Dee Dee always had other plans... usually chaotic ones.</div>
+							<div class="page-footer">8</div>
+						</div>
+					</div>
+
+					<!-- Page 9 -->
+					<div class="page stf__item" style="display: none;">
+						<div class="page-content">
+							<h2 class="page-header">Johnny Bravo</h2>
+							<div class="page-image" style="background-image: url(images/jony.png)"></div>
+							<div class="page-text">Johnny Bravo, a karate-chopping, muscle-flexing ladies' man (in his mind) taught us that confidence is key... but maybe, just maybe, tone it down a bit, bro.</div>
+							<div class="page-footer">9</div>
+						</div>
+					</div>
+
+					<!-- Page 10 -->
+					<div class="page stf__item" style="display: none;">
+						<div class="page-content">
+							<h2 class="page-header">Ed, Edd n Eddy</h2>
+							<div class="page-image" style="background-image: url(images/ed.png)"></div>
+							<div class="page-text">Jawbreakers bigger than their heads, scams that never work, and pure childhood chaos: Ed, Edd n Eddy were the ultimate suburban hustlers.</div>
+							<div class="page-footer">10</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+		<div id="canvasBook" style="display: none;">
+			<div class="flip-book canvas-book stf__wrapper --portrait" id="canvasBookExample" style="min-width: 350px; min-height: 467px; width: 100%; max-width: 1400px; display: block; padding-bottom: 133.273%;">
+				<canvas class="stf__canvas" width="100" height="100"></canvas>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="text-center mt-3 mb-2">
+			<button type="button" class="btn btn-info btn-sm btn-book-prev">Previous page</button>
+			[<span class="page-count">10</span> of <span class="page-total">10</span>]
+			<button type="button" class="btn btn-info btn-sm btn-book-next">Next page</button>
+		</div>
+	</div>
+</div>
+
+<script type="module" src="index.js"></script>
